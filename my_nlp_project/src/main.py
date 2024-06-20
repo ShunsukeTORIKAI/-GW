@@ -31,4 +31,4 @@ for i in range(len(sentence_arrays)):
     count_statistics = counter.count(d1,d2,sentence)
     result.append( predictor.predict(count_statistics) )
 
-output_manager.output(sentence_arrays, result)
+output_manager.output(input_loader.load("../data/data.txt"), result)

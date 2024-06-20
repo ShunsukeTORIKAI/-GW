@@ -3,8 +3,12 @@ def load(input_path):
     with open(input_path) as f:
         for line in f:
             if line != "":
-                sentence_arrays.append(line.rstrip("\n").split(","))
-                sentence_arrays
+                line = line.rstrip("\n")
+                if "," in line:
+                    line = line.split(",")
+                else:
+                    pass
+                sentence_arrays.append(line)
             else:
                 pass
     return sentence_arrays
