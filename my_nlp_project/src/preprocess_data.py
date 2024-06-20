@@ -18,7 +18,7 @@ with open("../data/data.txt") as f:
             for token in a.analyze(line):
                 token_list = str(token).split()
                 token_list[1] = token_list[1].rstrip("'").split(",")
-                if token_list[1][0] == "動詞":
+                if token_list[1][0] == "動詞" or token_list[1][0] == "形容詞":
                     token_list[0] = token_list[1][6]
                 else:
                     pass

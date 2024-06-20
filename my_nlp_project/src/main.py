@@ -32,3 +32,4 @@ for i in range(len(sentence_arrays)):
     result.append( predictor.predict(count_statistics) )
 
 output_manager.output(input_loader.load("../data/data.txt"), result)
+
