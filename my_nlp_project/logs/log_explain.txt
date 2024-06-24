@@ -2,3 +2,4 @@
 6/20 21:49 process_data.pyで形容詞を終止形にする変更(出力結果log_v4)
 6/24 16:47 load_dictionary2.pyで連語なら最初の単語のみを収録するように変更(出力結果log_v5)
 6/24 20:29 predict_polarity.pyで出力を数値だけでなく極性を示す文字列に変更(出力結果log_v6)
+6/24 21:26 count_polarity_statistics.pyを赤阪さんのものに差し替え&preprocess_data.pyで助詞を残すように変更(出力結果log_v7)
