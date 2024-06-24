@@ -1,2 +1,3 @@
 6/20 20:52 process_data.pyで動詞を終止形にする変更(出力結果log_v3)
 6/20 21:49 process_data.pyで形容詞を終止形にする変更(出力結果log_v4)
+6/24 16:47 load_dictionary2.pyで連語なら最初の単語のみを収録するように変更(出力結果log_v5)
