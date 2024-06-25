@@ -9,7 +9,7 @@ from janome.analyzer import Analyzer
 from janome.charfilter import *
 from janome.tokenfilter import *
 t = Tokenizer()
-token_filters = [CompoundNounFilter(), POSStopFilter(['記号']), LowerCaseFilter()]
+token_filters = [CompoundNounFilter(), POSStopFilter(['記号','助詞,格助詞', '助詞,副助詞', '助詞,終助詞','助詞,係助詞']), LowerCaseFilter()]
 a = Analyzer(tokenizer=t, token_filters=token_filters)
 with open("../data/data.txt") as f:
     for line in f:
